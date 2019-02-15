@@ -1,9 +1,9 @@
 # Laravel Request Filters
 
-[comment]: <> [![Latest Version on Packagist](https://img.shields.io/packagist/v/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-request-filters)
-[comment]: <> [![Build Status](https://img.shields.io/travis/ralphmorris/laravel-request-filters/master.svg?style=flat-square)](https://travis-ci.org/ralphmorris/laravel-request-filters)
-[comment]: <> [![Quality Score](https://img.shields.io/scrutinizer/g/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://scrutinizer-ci.com/g/ralphmorris/laravel-request-filters)
-[comment]: <> [![Total Downloads](https://img.shields.io/packagist/dt/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-request-filters)
+<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-request-filters) -->
+<!-- [![Build Status](https://img.shields.io/travis/ralphmorris/laravel-request-filters/master.svg?style=flat-square)](https://travis-ci.org/ralphmorris/laravel-request-filters) -->
+<!-- [![Quality Score](https://img.shields.io/scrutinizer/g/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://scrutinizer-ci.com/g/ralphmorris/laravel-request-filters) -->
+<!-- [![Total Downloads](https://img.shields.io/packagist/dt/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-request-filters) -->
 
 Easily add dedicated filters based on request parameters. Originally came from a great tutorial on Laracasts. After copying it from project to project a few times I've now put it into a little package and added a generator for ease of use.
 
