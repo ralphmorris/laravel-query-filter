@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Request Filters
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-request-filters)
 [![Build Status](https://img.shields.io/travis/ralphmorris/laravel-request-filters/master.svg?style=flat-square)](https://travis-ci.org/ralphmorris/laravel-request-filters)
