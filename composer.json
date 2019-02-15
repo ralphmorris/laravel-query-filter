@@ -1,0 +1,54 @@
+{
+    "name": "ralphmorris/laravel-request-filters",
+    "description": "A packages to help create filters to queries based on request parameters",
+    "keywords": [
+        "ralphmorris",
+        "laravel-request-filters"
+    ],
+    "homepage": "https://github.com/ralphmorris/laravel-request-filters",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ralph Morris",
+            "email": "ralph@bubblehubsolutions.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.7.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.7.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RalphMorris\\LaravelRequestFilters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RalphMorris\\LaravelRequestFilters\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RalphMorris\\LaravelRequestFilters\\LaravelRequestFiltersServiceProvider"
+            ],
+            "aliases": {
+                "LaravelRequestFilters": "RalphMorris\\LaravelRequestFilters\\LaravelRequestFiltersFacade"
+            }
+        }
+    }
+}
