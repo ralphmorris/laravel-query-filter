@@ -9,7 +9,7 @@ Easily add dedicated filters based on request parameters. Originally came from a
 
 ## Installation
 
-You can install the package via composer:
+You can install the package via composer: ! Not quite yet !
 
 ```bash
 composer require ralphmorris/laravel-request-filters
@@ -20,9 +20,10 @@ composer require ralphmorris/laravel-request-filters
 To allow a model to be filterable, first add the FilterableTrait to your model.
 
 ``` php
+use Illuminate\Database\Eloquent\Model;
 use RalphMorris\LaravelRequestFilters\FilterableTrait;
 
-class Post
+class Post extends Model
 {
     use FilterableTrait;
 }
