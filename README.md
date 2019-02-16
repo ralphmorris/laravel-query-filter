@@ -9,7 +9,7 @@ Easily add dedicated filters based on request parameters. Originally came from a
 
 ## Installation
 
-You can install the package via composer: ! Not quite yet !
+You can install the package via composer:
 
 ```bash
 composer require ralphmorris/laravel-query-filter
