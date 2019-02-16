@@ -60,7 +60,7 @@ class PostFilters extends QueryFilter
 }
 ```
 
-If you wanted to add a filter on the title and author ID, yo umight d something like this.
+If you wanted to add a filter on the title and author ID, you might do something like this.
 
 ```php
 namespace App\Filters;
