@@ -1,10 +1,10 @@
 <?php
 
-namespace RalphMorris\LaravelRequestFilters;
+namespace RalphMorris\LaravelQueryFilter;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelRequestFiltersServiceProvider extends ServiceProvider
+class LaravelQueryFilterServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -13,7 +13,7 @@ class LaravelRequestFiltersServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \RalphMorris\LaravelRequestFilters\Commands\FilterMakeCommand::class
+                \RalphMorris\LaravelQueryFilter\Commands\FilterMakeCommand::class
             ]);
         }
     }

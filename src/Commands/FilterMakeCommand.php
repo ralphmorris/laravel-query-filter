@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphMorris\LaravelRequestFilters\Commands;
+namespace RalphMorris\LaravelQueryFilter\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;

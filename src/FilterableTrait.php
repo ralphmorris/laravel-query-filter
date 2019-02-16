@@ -1,8 +1,8 @@
 <?php
 
-namespace RalphMorris\LaravelRequestFilters;
+namespace RalphMorris\LaravelQueryFilter;
 
-use RalphMorris\LaravelRequestFilters\QueryFilter;
+use RalphMorris\LaravelQueryFilter\QueryFilter;
 
 trait FilterableTrait
 {

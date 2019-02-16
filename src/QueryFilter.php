@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphMorris\LaravelRequestFilters;
+namespace RalphMorris\LaravelQueryFilter;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;

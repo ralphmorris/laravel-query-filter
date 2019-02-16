@@ -1,9 +1,9 @@
-# Laravel Request Filters
+# Laravel Query Filter
 
-<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-request-filters) -->
-<!-- [![Build Status](https://img.shields.io/travis/ralphmorris/laravel-request-filters/master.svg?style=flat-square)](https://travis-ci.org/ralphmorris/laravel-request-filters) -->
-<!-- [![Quality Score](https://img.shields.io/scrutinizer/g/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://scrutinizer-ci.com/g/ralphmorris/laravel-request-filters) -->
-<!-- [![Total Downloads](https://img.shields.io/packagist/dt/ralphmorris/laravel-request-filters.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-request-filters) -->
+<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/ralphmorris/laravel-query-filter.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-query-filter) -->
+<!-- [![Build Status](https://img.shields.io/travis/ralphmorris/laravel-query-filter/master.svg?style=flat-square)](https://travis-ci.org/ralphmorris/laravel-query-filter) -->
+<!-- [![Quality Score](https://img.shields.io/scrutinizer/g/ralphmorris/laravel-query-filter.svg?style=flat-square)](https://scrutinizer-ci.com/g/ralphmorris/laravel-query-filter) -->
+<!-- [![Total Downloads](https://img.shields.io/packagist/dt/ralphmorris/laravel-query-filter.svg?style=flat-square)](https://packagist.org/packages/ralphmorris/laravel-query-filter) -->
 
 Easily add dedicated filters based on request parameters. Originally came from a great tutorial on Laracasts. After copying it from project to project a few times I've now put it into a little package and added a generator for ease of use.
 
@@ -12,7 +12,7 @@ Easily add dedicated filters based on request parameters. Originally came from a
 You can install the package via composer: ! Not quite yet !
 
 ```bash
-composer require ralphmorris/laravel-request-filters
+composer require ralphmorris/laravel-query-filter
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ To allow a model to be filterable, first add the FilterableTrait to your model.
 
 ``` php
 use Illuminate\Database\Eloquent\Model;
-use RalphMorris\LaravelRequestFilters\FilterableTrait;
+use RalphMorris\LaravelQueryFilters\FilterableTrait;
 
 class Post extends Model
 {
@@ -40,7 +40,7 @@ This will place the filter class under an App\Filters namespace if you are using
 ```php
 namespace App\Filters;
 
-use RalphMorris\LaravelRequestFilters\QueryFilter;
+use RalphMorris\LaravelQueryFilters\QueryFilter;
 
 class PostFilters extends QueryFilter
 {
@@ -65,7 +65,7 @@ If you wanted to add a filter on the title and author ID, yo umight d something 
 ```php
 namespace App\Filters;
 
-use RalphMorris\LaravelRequestFilters\QueryFilter;
+use RalphMorris\LaravelQueryFilters\QueryFilter;
 
 class PostFilters extends QueryFilter
 {

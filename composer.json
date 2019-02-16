@@ -1,11 +1,11 @@
 {
-    "name": "ralphmorris/laravel-request-filters",
+    "name": "ralphmorris/laravel-query-filter",
     "description": "A packages to help create filters to queries based on request parameters",
     "keywords": [
         "ralphmorris",
-        "laravel-request-filters"
+        "laravel-query-filter"
     ],
-    "homepage": "https://github.com/ralphmorris/laravel-request-filters",
+    "homepage": "https://github.com/ralphmorris/laravel-query-filter",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RalphMorris\\LaravelRequestFilters\\": "src"
+            "RalphMorris\\LaravelQueryFilter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RalphMorris\\LaravelRequestFilters\\Tests\\": "tests"
+            "RalphMorris\\LaravelQueryFilter\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RalphMorris\\LaravelRequestFilters\\LaravelRequestFiltersServiceProvider"
+                "RalphMorris\\LaravelQueryFilter\\LaravelQueryFilterServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace RalphMorris\LaravelRequestFilters\Tests;
+namespace RalphMorris\LaravelQueryFilters\Tests;
 
 use PHPUnit\Framework\TestCase;
 
