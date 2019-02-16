@@ -21,7 +21,7 @@ To allow a model to be filterable, first add the FilterableTrait to your model.
 
 ``` php
 use Illuminate\Database\Eloquent\Model;
-use RalphMorris\LaravelQueryFilters\FilterableTrait;
+use RalphMorris\LaravelQueryFilter\FilterableTrait;
 
 class Post extends Model
 {
@@ -40,7 +40,7 @@ This will place the filter class under an App\Filters namespace if you are using
 ```php
 namespace App\Filters;
 
-use RalphMorris\LaravelQueryFilters\QueryFilter;
+use RalphMorris\LaravelQueryFilter\QueryFilter;
 
 class PostFilters extends QueryFilter
 {
@@ -65,7 +65,7 @@ If you wanted to add a filter on the title and author ID, yo umight d something 
 ```php
 namespace App\Filters;
 
-use RalphMorris\LaravelQueryFilters\QueryFilter;
+use RalphMorris\LaravelQueryFilter\QueryFilter;
 
 class PostFilters extends QueryFilter
 {
