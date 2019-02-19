@@ -53,10 +53,10 @@ class PostFilters extends QueryFilter
 	 * 
 	 * @param  mixed $param Value of the request parameter
 	 */
-	public function example_request_param($param)
-	{
+    public function example_request_param($param)
+    {
         $this->builder->where('example_request_param', $param);
-	}
+    }
 }
 ```
 
@@ -69,15 +69,15 @@ use RalphMorris\LaravelQueryFilter\QueryFilter;
 
 class PostFilters extends QueryFilter
 {
-	public function title($title)
-	{
+    public function title($title)
+    {
         $this->builder->where('title', 'like', "%{$title}%");
-	}
+    }
 
-	public function author($authorId)
-	{
+    public function author($authorId)
+    {
         $this->builder->where('author_id', $authorId);
-	}
+    }
 }
 ```
 
