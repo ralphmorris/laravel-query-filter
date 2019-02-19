@@ -44,15 +44,15 @@ use RalphMorris\LaravelQueryFilter\QueryFilter;
 
 class PostFilters extends QueryFilter
 {
-	/**
-	 * Example
-	 * 
-	 * The request parameter key as the method name.
-	 * Passes the parameters value to the method 
-	 * so we can apply a filter to the query.
-	 * 
-	 * @param  mixed $param Value of the request parameter
-	 */
+    /**
+     * Example
+     * 
+     * The request parameter key as the method name.
+     * Passes the parameters value to the method 
+     * so we can apply a filter to the query.
+     * 
+     * @param  mixed $param Value of the request parameter
+     */
     public function example_request_param($param)
     {
         $this->builder->where('example_request_param', $param);
